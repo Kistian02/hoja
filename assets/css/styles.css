@@ -1,0 +1,65 @@
+:root{
+    --color1:rgb(0, 215, 244);
+    --color2:rgb(255, 223, 1);
+    --color3:rgb(253, 123, 3);
+    --color4:rgb(255, 0, 20);
+    --color5:rgb(31,31,31);
+    --color6:rgb(255,255,255);
+    --color7:rgb(190,190,190);
+    --color8:rgb(100,100,100);
+}
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.padre{
+    display: flex;
+}
+/*Columna Izquierda*/
+.columna20{
+    width: 20%;
+    background-color: var(--color5);
+    background-size: cover;
+    padding: 15px;
+}
+
+.boton{
+    color: var(--color7);
+    transition: 0.5s;
+    background-color: var(--color8);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    list-style: none;
+}
+.boton:hover{
+    color: var(--color6);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+/*Resto de Pagina*/
+
+.columna80{
+    width: 80%;
+}
+
+.cajas{
+    height: 25vh;
+}
+.caja1{
+    background-color: var(--color1);
+}
+
+.caja2{
+    background-color: var(--color2);
+}
+.caja3{
+    background-color: var(--color3);
+}
+.caja4{
+    background-color: var(--color4);
+}
