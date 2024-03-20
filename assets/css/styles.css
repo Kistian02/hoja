@@ -22,8 +22,7 @@
 .columna20{
     width: 20%;
     background-color: var(--color5);
-    background-size: cover;
-    padding: 15px;
+    padding: 30px;
 }
 
 .boton{
@@ -34,6 +33,7 @@
     padding: 10px;
     border-radius: 10px;
     list-style: none;
+    text-align: center;
 }
 .boton:hover{
     color: var(--color6);
@@ -53,7 +53,6 @@
 .caja1{
     background-color: var(--color1);
 }
-
 .caja2{
     background-color: var(--color2);
 }
